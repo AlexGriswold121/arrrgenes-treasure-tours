@@ -102,6 +102,7 @@ body {
 .banner a:focus {
   outline: 3px solid white;
 }
+
 .ship {
   padding: 2rem;
 }
