@@ -54,7 +54,12 @@ body {
   text-decoration: none;
 }
 
+.nav a:focus {
+  outline: 3px solid #fff;
+}
+
 .banner {
+  background-color: brown;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
@@ -91,8 +96,12 @@ body {
   color: #fff;
   font-weight: bold;
   text-decoration: none;
+  outline: 3px solid #bea59b;
 }
 
+.banner a:focus {
+  outline: 3px solid white;
+}
 .ship {
   padding: 2rem;
 }
